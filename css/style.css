@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	background: #eee;
+	color: #666;
+}
+.login-container {
+	height: 80vh;
+	width: 100%;
+}
+.login-form {
+	margin: auto;
+	width: 550px;
+	padding: 15px;
+	max-width: 100%;
+}
+
+.login-form .form-control {
+	font-size: 15px;
+	min-height: 48px;
+	font-weight: 500;
+}
+.login-form a {
+	text-decoration: none;
+	color: #666;
+}
+.login-form a:hover {
+	color: #2AA4F3;
+}
+
+.logout:hover {
+	background-color: #f00;
+	color: white;
+	font-weight: bold;
+}
+
+.form-control:focus {
+	border-color: #2AA4F3;
+	box-shadow: 0 0 0 0.2rem rgba(113,180,224, 0.25);
+}
+.btn-custom {
+	background: #2AA4F3;
+	border-color: #2AA4F3;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	min-height: 48px;
+}
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus {
+	background: #027dce;
+	border-color: #2AA4F3;
+	color: #fff;
+}
+.btn-custom:focus {
+	box-shadow: 0 0 0 0.2rem rgba(113,180,224, 0.25);
+}
+
+.logout:hover {
+	background-color: #f00;
+	color: white;
+	font-weight: bold;
+}
+
+.dropmenu {
+	background-color: #212529;
+	border-style: none;
+}
+
+.item1:hover {
+	background-color: #FFC107;
+	color: black;
+}
+
+.item1:active{
+	background-color: #FFC107 !important;
+	color: black;
+}
+
+.item2:hover {
+	background-color: #28A745;
+	color: white;
+}
+
+.item3:hover {
+	background-color: #DC3545;
+	color: white;
+}
+
+	.dropitem {
+		color: #ebebeb;
+		margin-bottom: 1vh;
+	}
+.dropmenu a:hover {
+	font-weight: bold;
+	border-radius: 15px;
+}
