@@ -13,12 +13,12 @@
 	<link href="<?php echo base_url('css/style.css') ?>" rel="stylesheet">
 	<style>
 		body {
-			background-image: url("<?php echo base_url('assets/logoweb/login.png') ?>");
+			background-image: url("<?php echo base_url('assets/logoweb/login.jpg') ?>");
 			background-size: cover;
 		}
 
 		.card {
-			background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149038179.jpg?w=1060&t=st=1671090892~exp=1671091492~hmac=be55a2dd2e71498d1c43a83a7e7b16641172a5b6699a8948079a81265bc88bb2");
+			background-image: url("<?php echo base_url('assets/logoweb/l.jpg') ?>");
 			opacity: 1;
 			background-size: cover;
 		}
@@ -38,7 +38,8 @@
 	<div class="card mx-auto border-info shadow-lg" style="max-width: 90vh; max-height: 600px; margin: 5%;">
 		<div class="d-flex justify-content-center align-items-center login-container">
 			<form action="<?= base_url('auth/login'); ?>" method="POST" class="login-form text-center">
-				<h1 class="mb-4 font-weight-light font-weight-bold text-uppercase">Silahkan Login</h1>
+				<h1 class="mb-4 font-weight-light font-weight-bold text-uppercase">Login</h1>
+				<h1 class="mb-2 font-weight-light font-weight-bold text-sentence case">MyActivityReport</h1>
 				<?php echo $this->session->flashdata('login'); ?>
 				<div class="form-group">
 					<label class="d-flex flex-row font-weight-bold" for="username">Username</label>
@@ -53,7 +54,7 @@
 		</div>
 	</div>
 	<!-- Sticky Footer -->
-	<footer class="sticky-footer" style="color: white; font-style: italic;">
+	<footer class="sticky-footer" style="color: black; font-style: italic;">
 		<div class="container my-auto">
 			<div class="copyright text-center my-auto">
 				<span>Copyright <?php echo SITE_NAME . " " . Date('Y') ?></span>
